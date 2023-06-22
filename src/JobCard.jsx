@@ -1,4 +1,4 @@
-const JobCard = () => {
+const JobCard = ({ jobs }) => {
 
   const {
     image: { src, alt },
@@ -11,7 +11,7 @@ const JobCard = () => {
   
   return (
     <div className="j-desc">
-
+{/* 
       <img class="j-desc__company-image"/>
 
       <div className="j-desc__details">
@@ -22,7 +22,7 @@ const JobCard = () => {
           <li className="j-desc__salary">{salary}</li>
           <li className="j-desc__posting_date">{postDate}</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   )
 }
